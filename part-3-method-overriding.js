@@ -15,12 +15,6 @@ class Person {
   bio() {
     return `My name is ${this.realFirstName} ${this.realLastName}.`;
   }
-  setFirstRealName(realFirstName) {
-    this.realFirstName = realFirstName;
-  }
-  setLastRealName(realLastName) {
-    this.realFirstName = realLastName;
-  }
 }
 
 let person1 = new Person('Peter', 'Parker');
@@ -45,9 +39,6 @@ class SuperHero extends Person {
   }
   saySuperHeroName() {
     return `My alter ego is ${this.alterEgo}. Shh! Don\'t tell anyone.`
-  }
-  setAlterEgo(alterEgo) {
-    this.alterEgo = alterEgo;
   }
 }
 
